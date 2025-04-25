@@ -1,0 +1,5 @@
+PyQt6>=6.4.0
+PyQt6-WebEngine>=6.4.0
+PyQt6-WebEngine-Qt>=6.4.0
+PyQt6-QtWebEngineCore>=6.4.0
+PyQt6-QtWebEngine>=6.4.0

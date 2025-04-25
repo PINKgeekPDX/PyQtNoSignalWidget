@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/pyqt_no_signal_widget/__init__.py
+src/pyqt_no_signal_widget/no_signal_widget.py
+src/pyqt_no_signal_widget.egg-info/PKG-INFO
+src/pyqt_no_signal_widget.egg-info/SOURCES.txt
+src/pyqt_no_signal_widget.egg-info/dependency_links.txt
+src/pyqt_no_signal_widget.egg-info/requires.txt
+src/pyqt_no_signal_widget.egg-info/top_level.txt

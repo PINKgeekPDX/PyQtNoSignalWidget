@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Make sure this name is unique on PyPI if you plan to upload!
+name = "pyqt-no-signal-widget"
+version = "0.1.0" # Start with an initial version, increment as needed
+authors = [
+  { name="PNKgeekPDX", email="pinkgeekportland@gmail.com" },
+]
+description = "A customizable PyQt6 widget displaying a retro 'No Signal' TV animation."
+readme = "README.md"
+requires-python = ">=3.8"
+# Find more classifiers at https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 3 - Alpha", # Or 4 - Beta, 5 - Production/Stable
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License", # TODO: Choose and match your license file
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Framework :: PyQt",
+    "Framework :: PyQt :: 6",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: User Interfaces",
+    "Environment :: X11 Applications :: Qt",
+    "Environment :: MacOS X :: Cocoa",
+    "Environment :: Win32 (MS Windows)",
+]
+keywords = ["pyqt", "pyqt6", "widget", "custom widget", "animation", "no signal", "gui", "qwebengine", "retro", "tv"]
+dependencies = [
+    "PyQt6>=6.4.0,<7.0.0",         # Specify a reasonable range for PyQt6
+    "PyQt6-WebEngine>=6.4.0,<7.0.0", # Match PyQt6 version range
+]
+
+[project.urls]
+Homepage = "https://github.com/PNKgeekPDX/pyqt-no-signal-widget"
+Issues = "https://github.com/PNKgeekPDX/pyqt-no-signal-widget/issues"
+
+# Specifies that the package code is in the 'src' directory
+[tool.setuptools.packages.find]
+where = ["src"] 
